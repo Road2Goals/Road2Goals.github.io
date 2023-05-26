@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: Road2Goals
-zhihu_username: Road2Goals
+weibo_username: 
+zhihu_username: 
 github_username: Road2Goals
-twitter_username: Road2Goals
+twitter_username: 
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: 
 
 # Netease settings
 netease_comment: false
