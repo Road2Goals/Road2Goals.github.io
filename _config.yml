@@ -1,10 +1,10 @@
 # Site settings
-title: Road2Goals Blog
-SEOTitle: 周子榆的博客 | Road2Goals Blog
+title: Matrix Blog
+SEOTitle: 周矩的博客 | Matrix Blog
 header-img: img/home-bg.jpg
 email: https://road2goals.github.io/
-description: "慢慢好起来 | 现在开始行动也是决定好了的"
-keyword: "矩矩, Road2Goals, @Road2Goals, R2G, 周子榆的博客, Road2Goals Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, 前端, 后端, Golang, 数据库, AI"
+description: ""
+keyword: "矩矩, Road2Goals, @Road2Goals, R2G, 周矩的博客, Matrix Blog, 博客, 大数据, 互联网, Web, JavaScript, React, 前端, 后端, Golang, 数据库, AI"
 url: "https://road2goals.github.io/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -69,8 +69,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
@@ -98,5 +98,5 @@ friends:
     { title: "SmdCn", href: "http://blog.smdcn.net" },
     { title: "JiyinYiyong", href: "http://tiye.me/" },
     { title: "DHong Say", href: "http://dhong.co" },
-    { title: "ZhouSh", href: "https://github.com/zhoush210/zhoush210.github.io/" },
+    { title: "ZhouSh", href: "https://zhoush210.github.io/" },
   ]
