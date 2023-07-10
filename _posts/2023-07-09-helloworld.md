@@ -1,13 +1,15 @@
 ---
 layout:       post
-title:        "Hello World"
+title:        "Hello My Blog"
+subtitle:     "Hello World"
 author:       "Matrix"
-header-style: text
+header-img: "img/post-bg-helloworld.jpg"
+header-mask: 0.3
 catalog:      true
 tags:
     - Matrix 随想录
 ---
 
-> Hello, I am Matrix.
+> Nice 2 meet U!
 
-Nice 2 meet U! 欢迎来到我的博客
+Hello, I am Matrix. Welcome to my blog!
