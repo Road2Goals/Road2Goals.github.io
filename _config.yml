@@ -1,7 +1,7 @@
 # Site settings
 title: Matrix Blog
 SEOTitle: 周矩的博客 | Matrix Blog
-header-img: img/home-bg.jpg
+header-img: img/home-me-2022.jpg
 email: https://road2goals.github.io/
 description: ""
 keyword: "矩矩, Road2Goals, @Road2Goals, R2G, 周矩的博客, Matrix Blog, 博客, 大数据, 互联网, Web, JavaScript, React, 前端, 后端, Golang, 数据库, AI"
@@ -74,7 +74,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "被讨厌的勇气 <br> 期待光"
+sidebar-about-description: "期待光 <br> 成为光"
 sidebar-avatar: https://road2goals.github.io/img/favicon.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
