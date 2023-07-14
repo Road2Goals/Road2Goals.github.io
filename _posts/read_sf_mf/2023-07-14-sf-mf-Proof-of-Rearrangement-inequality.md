@@ -60,6 +60,7 @@ $$
 又因为 $$  (a_{n+1}-a_u)(b_{n+1}-b_v) \geq 0$$
 
 所以有
+
 $$
 S_1 +  (a_{n+1}-a_u)(b_{n+1}-b_v) \geq S_r \\
 S_1 + {a_{n+1}}{b_{n+1}} + {a_u}{b_v} - {a_u}{b_{n+1}} - {a_{n+1}{b_v}} \geq S_r \\
@@ -95,6 +96,7 @@ $$
 如果序列 $$\left(a_1, a_2, \cdots, a_n\right)$$ 是增加的, 而序列 $$\left(b_1, b_2, \cdots, b_n\right)$$ 是减少的, 则上面的不等式改变方向.
 
 **证明** 注意到 $$a_1 \leqslant a_2 \leqslant \cdots \leqslant a_n$$ 和 $$b_1 \leqslant b_2 \leqslant \cdots \leqslant b_n$$ , 所以根据 **Abel 公式**
+
 $$
 \begin{aligned}
 \sum_{k=1}^n a_k b_k-\sum_{k=1}^n a_k b_{i_k}= & \sum_{k=1}^n a_k\left(b_k-b_{i_k}\right)=\left(a_1-a_2\right)\left(b_1-b_{i_1}\right)+ \\
@@ -102,10 +104,13 @@ $$
 & \left(a_{n-1}-a_n\right)\left(\sum_{k=1}^{n-1} b_k-\sum_{k=1}^{n-1} b_{i_k}\right)+a_n\left(\sum_{k=1}^n b_k-\sum_{k=1}^n b_{i_i}\right) \geqslant 0
 \end{aligned}
 $$
+
 因为对所有 $$k=1,2, \cdots, n$$, 我们有
+
 $$
 \sum_{j=1}^k b_j \leqslant \sum_{j=1}^k b_{i j}
 $$
+
 当序列 $$\left(a_1, a_2, \cdots, a_n\right)$$ 是增加而 $$\left(b_1, b_2, \cdots, b_n\right)$$ 减少的情况的证明是类似的.
 
 
