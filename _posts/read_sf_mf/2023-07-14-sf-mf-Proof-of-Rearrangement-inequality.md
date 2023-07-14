@@ -72,7 +72,7 @@ $$
 
 
 
-而对于乱序和大于逆序和, 只需要将 $b_1 \leqslant b_2 \leqslant \cdots \leqslant b_n$ 乘以  $$ -1$$ , 即 $$  -b_1 \geq -b_2 \geq \cdots \geq -b_n $$ 
+而对于乱序和大于逆序和, 只需要将 $$b_1 \leqslant b_2 \leqslant \cdots \leqslant b_n$$ 乘以  $$ -1$$ , 即 $$  -b_1 \geq -b_2 \geq \cdots \geq -b_n $$ 
 
 然后有顺序和大于等于乱序和
 $$
@@ -92,7 +92,7 @@ $$
 $$
 a_1 b_1+a_2 b_2+\cdots+a_n b_n \geqslant a_1 b_{i_1}+a_2 b_{i_2}+\cdots+a_n b_{i_n}
 $$
-如果序列 $\left(a_1, a_2, \cdots, a_n\right)$ 是增加的, 而序列 $\left(b_1, b_2, \cdots, b_n\right)$ 是减少的, 则上面的不等式改变方向.
+如果序列 $$\left(a_1, a_2, \cdots, a_n\right)$$ 是增加的, 而序列 $$\left(b_1, b_2, \cdots, b_n\right)$$ 是减少的, 则上面的不等式改变方向.
 
 **证明** 注意到 $$a_1 \leqslant a_2 \leqslant \cdots \leqslant a_n$$ 和 $$b_1 \leqslant b_2 \leqslant \cdots \leqslant b_n$$ , 所以根据 **Abel 公式**
 $$
@@ -102,7 +102,7 @@ $$
 & \left(a_{n-1}-a_n\right)\left(\sum_{k=1}^{n-1} b_k-\sum_{k=1}^{n-1} b_{i_k}\right)+a_n\left(\sum_{k=1}^n b_k-\sum_{k=1}^n b_{i_i}\right) \geqslant 0
 \end{aligned}
 $$
-因为对所有 $k=1,2, \cdots, n$, 我们有
+因为对所有 $$k=1,2, \cdots, n$$, 我们有
 $$
 \sum_{j=1}^k b_j \leqslant \sum_{j=1}^k b_{i j}
 $$
