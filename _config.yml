@@ -95,4 +95,3 @@ friends:
     { title: "LeetCode", href: "https://leetcode.cn/" },
   ]
 
-  markdown: kramdown
