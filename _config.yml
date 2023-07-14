@@ -94,3 +94,5 @@ friends:
     { title: "ZhouSh", href: "https://zhoush210.github.io/" },
     { title: "LeetCode", href: "https://leetcode.cn/" },
   ]
+
+  markdown: kramdown
