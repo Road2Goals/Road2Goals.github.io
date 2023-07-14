@@ -23,9 +23,9 @@ tags:
 
 **排序不等式**是数学上的一条不等式, 它是说: 
 
-如果 $ x_{1}\leq x_{2}\leq \cdots \leq x_{n} $ 和 $ y_{1}\leq y_{2}\leq \cdots \leq y_{n} $ 是两组实数, 而 $ x_{\sigma (1)},\ldots ,x_{\sigma (n)} $是 $ x_{1},\ldots ,x_{n} $ 的一个任意排列, 排序不等式指出 $ x_{1}y_{1}+\cdots +x_{n}y_{n}\geq x_{\sigma (1)}y_{1}+\cdots +x_{\sigma (n)}y_{n}\geq x_{n}y_{1}+\cdots +x_{1}y_{n} $.
+如果 $$ x_{1}\leq x_{2}\leq \cdots \leq x_{n} $$ 和 $$ y_{1}\leq y_{2}\leq \cdots \leq y_{n} $$ 是两组实数, 而 $$ x_{\sigma (1)},\ldots ,x_{\sigma (n)} $$ 是 $$ x_{1},\ldots ,x_{n} $$ 的一个任意排列, 排序不等式指出 $$ x_{1}y_{1}+\cdots +x_{n}y_{n}\geq x_{\sigma (1)}y_{1}+\cdots +x_{\sigma (n)}y_{n}\geq x_{n}y_{1}+\cdots +x_{1}y_{n} $$ .
 
-以文字可以说成是顺序和大于等于乱序和, 乱序和大于等于逆序和. 与很多不等式不同, 排序不等式不需限定 $ x_{i},\,y_{i} $ 的正负.
+以文字可以说成是顺序和大于等于乱序和, 乱序和大于等于逆序和. 与很多不等式不同, 排序不等式不需限定 $$ x_{i},\,y_{i} $$ 的正负.
 
 
 
@@ -41,7 +41,7 @@ tags:
 
 
 
-设 $\left(a_1, a_2, \cdots, a_n\right),\left(b_1, b_2, \cdots, b_n\right)$ 是两个增加的实数列. 假定 $\left(i_1, i_2, \cdots, i_n\right)$ 是 $(1,2, \cdots, n)$ 的任意一个排列, 则
+设 $$\left(a_1, a_2, \cdots, a_n\right),\left(b_1, b_2, \cdots, b_n\right)$$ 是两个增加的实数列. 假定 $$\left(i_1, i_2, \cdots, i_n\right)$$ 是 $$(1,2, \cdots, n)$$ 的任意一个排列, 则
 $$
 a_1 b_1+a_2 b_2+\cdots+a_n b_n \geqslant a_1 b_{i_1}+a_2 b_{i_2}+\cdots+a_n b_{i_n}
 $$
@@ -88,13 +88,13 @@ $$
 
 
 
-设 $\left(a_1, a_2, \cdots, a_n\right),\left(b_1, b_2, \cdots, b_n\right)$ 是两个增加的实数列. 假定 $\left(i_1, i_2, \cdots, i_n\right)$ 是 $(1,2, \cdots, n)$ 的任意一个排列, 则
+设 $$\left(a_1, a_2, \cdots, a_n\right),\left(b_1, b_2, \cdots, b_n\right)$$ 是两个增加的实数列. 假定 $$\left(i_1, i_2, \cdots, i_n\right)$$ 是 $$(1,2, \cdots, n)$$ 的任意一个排列, 则
 $$
 a_1 b_1+a_2 b_2+\cdots+a_n b_n \geqslant a_1 b_{i_1}+a_2 b_{i_2}+\cdots+a_n b_{i_n}
 $$
 如果序列 $\left(a_1, a_2, \cdots, a_n\right)$ 是增加的, 而序列 $\left(b_1, b_2, \cdots, b_n\right)$ 是减少的, 则上面的不等式改变方向.
 
-**证明** 注意到 $a_1 \leqslant a_2 \leqslant \cdots \leqslant a_n$ 和 $b_1 \leqslant b_2 \leqslant \cdots \leqslant b_n$, 所以根据 **Abel 公式**
+**证明** 注意到 $$a_1 \leqslant a_2 \leqslant \cdots \leqslant a_n$$ 和 $$b_1 \leqslant b_2 \leqslant \cdots \leqslant b_n$$ , 所以根据 **Abel 公式**
 $$
 \begin{aligned}
 \sum_{k=1}^n a_k b_k-\sum_{k=1}^n a_k b_{i_k}= & \sum_{k=1}^n a_k\left(b_k-b_{i_k}\right)=\left(a_1-a_2\right)\left(b_1-b_{i_1}\right)+ \\
@@ -106,7 +106,7 @@ $$
 $$
 \sum_{j=1}^k b_j \leqslant \sum_{j=1}^k b_{i j}
 $$
-当序列 $\left(a_1, a_2, \cdots, a_n\right)$ 是增加而 $\left(b_1, b_2, \cdots, b_n\right)$ 减少的情况的证明是类似的.
+当序列 $$\left(a_1, a_2, \cdots, a_n\right)$$ 是增加而 $$\left(b_1, b_2, \cdots, b_n\right)$$ 减少的情况的证明是类似的.
 
 
 
